@@ -1,3 +1,79 @@
-body{
-    background-color: white;
-}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    }
+    
+    .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    }
+    
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+    .menu{
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .menu ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    .menu li{
+      margin: 0 10px;
+    }
+    
+    .games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    }
+    
+    .game {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(33.33%
+    20px);
+    }
+    .game img {
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+    }
+    
+    .game h2 {
+    text-align: center;
+    }
+    
+    .game p {
+    text-align: justify;
+    }
+    
+    .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
+
+   .botao-suporte {
+     position: absolute;
+   color: blue;
+   top: 140px;
+   left: 1300px;
+    }
